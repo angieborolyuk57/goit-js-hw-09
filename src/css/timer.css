@@ -67,7 +67,7 @@ body {
   .reset_btn{
     display: block;
   width: 500px;
-  margin: 0 610px;
+  margin: 0 auto;
   padding: 15px;
   font-size: 16px;
   border: none;
