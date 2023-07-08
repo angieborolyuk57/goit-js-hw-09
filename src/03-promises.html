@@ -10,20 +10,20 @@
   <body>
     <p><a class="button_link" href="index.html">Go back</a></p>
 
-    <form class="form">
-      <label>
+    <form class="form login-box">
+      <label class="label_text">
         First delay (ms)
-        <input type="number" name="delay" required />
+        <input class="user-box" type="number" name="delay" required />
       </label>
-      <label>
+      <label class="label_text">
         Delay step (ms)
-        <input type="number" name="step" required />
+        <input class="user-box" type="number" name="step" required />
       </label>
-      <label>
-        Amount
-        <input type="number" name="amount" required />
+      <label class="label_text">
+       <span class="little_text">Amount</span>
+        <input class="user-box" type="number" name="amount" required />
       </label>
-      <button type="submit">Create promises</button>
+      <button class="user_button" type="submit">Create promises</button>
     </form>
 
     <script src="js/03-promises.js" type="module"></script>

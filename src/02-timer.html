@@ -11,26 +11,28 @@
     <p><a class="button_link" href="index.html">Go back</a></p>
 
     <input type="text" id="datetime-picker" placeholder="Choose your date" />
-    <button type="button" data-start>Start</button>
+    <button class="btn_styles" type="button" data-start>Start</button>
 
     <div class="timer">
       <div class="field">
-        <span class="value" data-days>00</span>
+        <span class="days" class="value" data-days>00</span>
         <span class="label">Days</span>
       </div>
       <div class="field">
-        <span class="value" data-hours>00</span>
+        <span class="hours" class="value" data-hours>00</span>
         <span class="label">Hours</span>
       </div>
       <div class="field">
-        <span class="value" data-minutes>00</span>
+        <span class="minutes" class="value" data-minutes>00</span>
         <span class="label">Minutes</span>
       </div>
       <div class="field">
-        <span class="value" data-seconds>00</span>
+        <span class="seconds" class="value" data-seconds>00</span>
         <span class="label">Seconds</span>
       </div>
     </div>
+
+    <button class="btn_styles reset_btn" type="button" id="resetButton" data-reset>Reset</button>
 
     <script src="js/02-timer.js" type="module"></script>
   </body>
