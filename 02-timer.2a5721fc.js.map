@@ -1,1 +1,0 @@
-{"mappings":"AAEmBA,SAASC,cAAc,mBACtBD,SAASC,cAAc","sources":["src/js/02-timer.js"],"sourcesContent":["\n\nconst datePicker = document.querySelector('datetime-picker');\nconst startButton = document.querySelector('button[data-start]');"],"names":["document","querySelector"],"version":3,"file":"02-timer.2a5721fc.js.map"}
