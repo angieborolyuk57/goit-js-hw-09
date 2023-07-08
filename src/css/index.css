@@ -1,0 +1,52 @@
+body{
+    background-image: url(/src/img/light_show.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top:150px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .link_button {
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    padding: 40px 40px;
+    text-decoration: none;
+    background-color: #e8751a;
+    color: #333;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-right:70px;
+  }
+
+  .link_button:hover {
+    background-color: #FDBD01;
+  }
+
+.main_container {
+    position: relative;
+    height: 100vh;
+  }
+  
+
+  
+  
+  
+  
+ 
+  
