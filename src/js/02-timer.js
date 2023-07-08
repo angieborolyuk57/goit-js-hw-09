@@ -20,7 +20,7 @@ import Notiflix from 'notiflix';
           Notiflix.Report.warning(
             'You chose date in the past',
             'Please choose a date in the future',
-            'Okey-dokey'
+            'Okay'
           );
           startButton.classList.remove('valid-date');
           startButton.classList.add('invalid-date');
@@ -71,7 +71,6 @@ import Notiflix from 'notiflix';
           seconds: secs,
         };
   
-        // Update the display of time on the page
         Object.keys(timeElements).forEach((element) => {
           timeElements[element].textContent = String(remainingTime[element]).padStart(2, '0');
         });
@@ -86,13 +85,11 @@ import Notiflix from 'notiflix';
     timer = null;
     targetDate = null;
   
-    // Reset the display of the timer elements to all zeros
     days.textContent = '00';
     hours.textContent = '00';
     mins.textContent = '00';
     secs.textContent = '00';
   
-    // Enable the start button
     startButton.disabled = false;
   });
   
