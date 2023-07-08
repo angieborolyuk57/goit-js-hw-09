@@ -18,6 +18,10 @@ body{
     flex-direction: row;
   }
 
+  li {
+    display: inline-block;
+  }
+
   .link_button {
     text-align: center;
     justify-content: center;
@@ -43,8 +47,25 @@ body{
     height: 100vh;
   }
   
+/* Media query for mobile screens */
+@media (max-width: 800px) {
 
-  
+  body{
+    background-image: url(/src/img/light_show.jpg);
+    background-size: center;
+  background-repeat: no-repeat;
+  }
+  .drop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .link_button {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
   
   
   
